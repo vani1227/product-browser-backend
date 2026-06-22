@@ -1,0 +1,26 @@
+{
+  "name": "product-browser-backend",
+  "version": "1.0.0",
+  "description": "CodeVector Internship Assignment",
+  "main": "server.js",
+  "scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js",
+  "seed": "node src/scripts/seedProducts.js"
+},
+  "keywords": [],
+  "author": "Vani",
+  "license": "ISC",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.22.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
